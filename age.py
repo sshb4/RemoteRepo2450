@@ -8,20 +8,19 @@
 
 import random
 
+
 print("Hello, I am going to guess your age.")
 name = input("What is your name? ")
 
-guess = random.randint(15,30)
-
-answer = input("Yes (y) or no (n) ? ")
-if answer == "y":
-	print(name, " is", age, " years old.")
-	return;	
-if answer == "n":
-	print("Rats.")
-
-while answer != "y":
+while:
 	guess = random.randint(15,30)
-#need to move things around
+	answer = input("Yes (y) or no (n) ? ")
+	if answer == "y":
+		print(name, " is", age, " years old.")
+		break;	
+	if answer == "n":
+		print("Rats.")
+	else:
+		print("Put an actual answer please")
 
 
