@@ -12,13 +12,14 @@ import random
 print("Hello, I am going to guess your age.")
 name = input("What is your name? ")
 
-while:
+while True:
 	guess = random.randint(15,30)
-	answer = input("Yes (y) or no (n) ? ")
+	print(f"If it {guess}?")
+	answer = input("Yes (y) or no (n) ? ").lower()
 	if answer == "y":
-		print(name, " is", age, " years old.")
-		break;	
-	if answer == "n":
+		print(f"{name} is {guess} years old.")
+		break
+	elif answer == "n":
 		print("Rats.")
 	else:
 		print("Put an actual answer please")
