@@ -6,21 +6,24 @@
 #If it guesses right, it exults and says "<your name> is <age> years old." and quit.
 #If it guesses wrong, it says "Rats." and tries to guess again.
 
-import random
 
+import random
 
 print("Hello, I am going to guess your age.")
 name = input("What is your name? ")
 
-while:
+guess = random.randint(15,30)
+
+answer = input("Yes (y) or no (n) ? ")
+if answer == "y":
+	print(name, " is", age, " years old.")
+	return;	
+if answer == "n":
+	print("Rats.")
+
+while answer != "y":
 	guess = random.randint(15,30)
-	answer = input("Yes (y) or no (n) ? ")
-	if answer == "y":
-		print(name, " is", age, " years old.")
-		break;	
-	if answer == "n":
-		print("Rats.")
-	else:
-		print("Put an actual answer please")
+#need to move things around
+
 
 
