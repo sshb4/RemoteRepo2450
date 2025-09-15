@@ -4,6 +4,7 @@
 - I also had to create an SSH key for this device
 - Wrote some python (basic age guessing program)
 
+--------------
 
 9/3/25: 
 
@@ -13,3 +14,22 @@ CS2450
 
 CS3005
 - We talked about the std library, and how watching out for namespaces is important and being sure to use std::
+
+--------------
+
+9/15/25:
+
+CS2450
+Software architecture:
+- Software architecture is similar to real architecture, there are pitfalls to both.
+- You need to take into account what is already built.
+- It takes into account design, business, technology capabilities, and customer needs. Peoples, process, technology.
+
+Add value: make correct technical decisions, enable communication between product and engineering, and drive sound development practices. 
+
+Being familiar with a tool and being good at it is a good enough reason for using it. Technology choices are usually not the issue in failed projects, its usually people problems.
+
+Making decisions between various trade-offs: speed vs storage, etc.
+
+
+
