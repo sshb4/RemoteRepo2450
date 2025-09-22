@@ -31,5 +31,21 @@ Being familiar with a tool and being good at it is a good enough reason for usin
 
 Making decisions between various trade-offs: speed vs storage, etc.
 
+--------------
+
+9/22/25:
+
+CS2450
+Ethics: the way you present information (especially to investors) can be manipulated, there is an ethical responsibility to present not only technically accurate but also really accurate information
+
+Design: color, size, shapes, density, etc all convey meaning, add visual interest, and can make information more digestible
+
+The people you present to, the goals you have, and design principles all should impact your presentation.
+
+Simpler and less dense is not always better. Not always do engineers need a super duper complicated chart, and not always do investors want a super simple chart. 
+
+Pictures can convey meaning a lot clearer.
+
+
 
 
