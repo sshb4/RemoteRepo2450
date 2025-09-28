@@ -46,6 +46,12 @@ Simpler and less dense is not always better. Not always do engineers need a supe
 
 Pictures can convey meaning a lot clearer.
 
+--------------
+
+9/27/25:
+
+General:
+When beginning/editing a system, it is superrrrr helpful to have documentation and good comments. Write down what links where. Draw diagrams. Etc. 
 
 
 
