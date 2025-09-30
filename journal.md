@@ -258,5 +258,21 @@ push_back is like append in py
 General:
 When beginning/editing a system, it is superrrrr helpful to have documentation and good comments. Write down what links where. Draw diagrams. Etc. 
 
+--------------
+
+9/29/25: 
+
+CS2450
+
+make pitch decks interesting and funny
 
 
+
+CS3005
+
+this-> me, not strictly necessary
+
+Virtual vs non-virtual functions
+    Virtual functions are a little slower but sometimes that's negligible
+
+--------------
