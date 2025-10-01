@@ -1,9 +1,12 @@
+JOURNAL FALL 2025
+
+
 
 8/25/25: CS3005
 Streams and IO:
-===============
+---------------
 
-A stream is a <i>data structure<i> that represents a sequential pile of data that you assign. 
+A stream is a data structure that represents a sequential pile of data that you assign. 
 When you call something a stream, you can assign meaning and do things to it. 
 
 Writing to a stream uses std::cout and << (<< is stream insertion operator). 
@@ -15,7 +18,7 @@ std::cin >> (>> is stream extraction operator).
 
     Use: keyboards, etc.
 
-===============
+----------------
 C & C++ are strongly typed languages.
 
 Data types:
@@ -42,7 +45,7 @@ Data types:
 
         Pointers > memory not direct. 
 
-===============
+-------------
 std::string will automatically resize as you adjust it/append items to it in the process.
 
 segmentation fault: if you try to access something outside of the allocated memory.
@@ -274,5 +277,32 @@ this-> me, not strictly necessary
 
 Virtual vs non-virtual functions
     Virtual functions are a little slower but sometimes that's negligible
+
+--------------
+
+10/1/25: 
+
+CS3005
+
+Ground covered so far (1/2 through week 7!)
+    C++ structure
+    classes, object orientation, inheritance, polymorphism, encapsulation
+    system design, cohesion
+    function pointers
+    virtual functions
+
+
+
+Hash - a one way encryption, a smaller-than-original jumble of characters
+    You can't undo a hash, but you can compare hashes (a hash you make of X will always be the same)
+
+    SHA - secure hash algorithm
+
+
+Look at unit tests
+
+rebase vs merge
+
+draw a picture
 
 --------------
