@@ -306,3 +306,74 @@ rebase vs merge
 draw a picture
 
 --------------
+
+10/2/2025:
+
+SE3200
+
+Database:
+    - collects data
+    - library with information
+    - list of things
+
+
+No-SQL databases:
+    - document store
+    - key-value store
+    - column-family store
+
+
+SQLITE is what we use
+
+Once you learn one SQL you will know you're way around the others
+
+SQL - Structured Query Language
+
+
+
+potential table for course schedule web app
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+| ID | type | code | layman | semester |
+|--------------------------------------|
+
+Mac comes installed with SQLite3
+
+for commands, use all caps to make it easier to differentiate
+
+> CREATE TABLE schedule (id INTEGER PRIMARY KEY, type TEXT, code INTEGER, layman TEXT, semester TEXT) 
+    cmd   cmd   name       fields                name type  name  type
+
+.schema
+
+Security is critical, in real world programming things need to be robust
+
+Validation should be on both sides
+
+
+sqlite mydb.db.    //adding filename is how you make it persistent
+CREATE TABLE schedule (id INTEGER PRIMARY KEY, type TEXT, code INTEGER, layman TEXT, semester TEXT);
+INSERT INTO schedule (type, code, layman, semester) VALUES ('math', 1210, 'calc 1', 'FA25');
+INSERT INTO schedule (type, code, layman, semester) VALUES ('se', 3200, 'web app 1', 'FA25');
+INSERT INTO schedule (type, code, layman, semester) VALUES ('cs', 3005, 'c++', 'FA25');
+INSERT INTO schedule (type, code, layman, semester) VALUES ('cs', 2450, 'software engineering', 'FA25');
+INSERT INTO schedule (type, code, layman, semester) VALUES ('cs', 4992, 'seminar', 'FA25')
+SELECT * FROM schedule; 
+
+
+--------------
