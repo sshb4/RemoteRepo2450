@@ -375,5 +375,16 @@ INSERT INTO schedule (type, code, layman, semester) VALUES ('cs', 2450, 'softwar
 INSERT INTO schedule (type, code, layman, semester) VALUES ('cs', 4992, 'seminar', 'FA25')
 SELECT * FROM schedule; 
 
+--------------
+
+10/3/2025:
+
+CS2450
+
+Gant chart
+    not really accurate
+
+Kanban
+    
 
 --------------
