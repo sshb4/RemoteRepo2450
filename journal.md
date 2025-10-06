@@ -384,7 +384,28 @@ CS2450
 Gant chart
     not really accurate
 
-Kanban
-    
+Kanban board
+
+--------------
+
+10/6/2025:
+
+CS3005
+
+Based on a seed, they are not fully random. Eventually, they will start to repeat.
+
+Scan-line is how most graphics programming is done, ray tracing. 
+
+radius_sq = radius * radius
+
+for row
+    for col
+        distance_sq = ((cr - row) * (cr - row)) + ((cc - col) * (cc - col))
+        if(distance_sq == radius_sq)
+
+Grey from channel 
+
+
+
 
 --------------
