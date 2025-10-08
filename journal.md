@@ -405,6 +405,46 @@ for row
 
 Grey from channel 
 
+--------------
+
+10/8/25: CS3005
+
+exam 2
+- add a new operator that does something w two ppms or the unary operator !
+- add a new filter that does something cool to Image1 (make it sepia or all blue or somehthing)
+    - including adding a menu item
+    - understand the structure of imageMenu
+- draw another shape
+- draw a line between two points
+- plotting a function
+- gradient color using distance formula
+- fill a specific channel with one value (ex fill all blue channels with 255)
+
+---
+psuedocode 40%
+
+    for row=0;r<h; r++
+        for col
+            r = getChannel()
+        
+            do stuffffff from exam here
+
+            setPixel
+
+make it work 50%
+
+random question about how it works, and show where it is in codebase 10%
+---
+
+Sunday night is when midterms grades are due
+
+comment for magic numbers
+
+don't use sqrt() unless you include cmath directly 
+
+remember to set max-color-value and size
+
+UI design is very important
 
 
 
