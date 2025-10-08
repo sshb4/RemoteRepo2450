@@ -447,5 +447,11 @@ remember to set max-color-value and size
 UI design is very important
 
 
+Traversal through tree
+- in order means left, this, right
+- preorder is this, left, right
+- post order is left, right, this
+
+Pratice writing trees
 
 --------------
