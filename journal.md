@@ -455,3 +455,22 @@ Traversal through tree
 Pratice writing trees
 
 --------------
+
+10/17/2025:
+
+CS2450
+
+Ethics in programming
+
+Where is your line?
+- You still have to be able to function in society, but what does that mean?
+- Are you willing to knowingly exploit people? Indirectly?
+- Would you want your family to buy/use the product?
+- What impact will you have?
+
+ACM Code of Ethics
+
+
+
+
+--------------
