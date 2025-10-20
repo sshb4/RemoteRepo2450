@@ -470,7 +470,20 @@ Where is your line?
 
 ACM Code of Ethics
 
+--------------
+
+10/20/2025:
+
+CS3005
+
+Inheritance: "is a"
+    Ex: PPM is an Image
+Composition: "has a" 
+    Ex: ActionData has an istream and ostream, and PPms
+
+Classes in c++ are private by default
 
 
 
 --------------
+
