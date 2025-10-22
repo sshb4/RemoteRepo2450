@@ -483,7 +483,38 @@ Composition: "has a"
 
 Classes in c++ are private by default
 
+--------------
+
+10/22/2025:
+
+CS3005
+
+Start drawing by algorithm, not by pixel (svg vs jpeg kinda)
+
+NumberGrid 
+if
+    colorIndex = colors.getNumberofColors() - 1
+else
+    mod by # of colors
+
+
+Grid bands func
+
+
+create a static color object A with -1,-1,-1, and then another B with same, then A-B
+
+
+static Color error_color(-1,-1,-1)
+static Color ret_error_color(-1,-1,-1)
+
+in ColorTable::operator[] {
+    if(i < 0 || i >= getNumberofColors()) {
+        ret_error_color = color-error;
+        return ret_error_color;
+    }
+
+}
+
 
 
 --------------
-
