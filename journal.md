@@ -515,6 +515,23 @@ in ColorTable::operator[] {
 
 }
 
+--------------
+
+10/28/2025:
+
+SE3200
+
+- before next: 
+    - create a basic frontend
+    - form to register (first,last,pass,email), JS handler with fetch (POST)
+        - store info including plaintext pass in DB (SQLite)
+        - /users
+    - form to login (email,pass), JS handler POST onButtonClick event (this JS will be worked on in class)
+        - /login
+            - retrieve user from DB, compare if a == b, return etc etc
+
+Authentication: confirming identity
 
 
 --------------
+
