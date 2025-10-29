@@ -532,6 +532,33 @@ SE3200
 
 Authentication: confirming identity
 
-
 --------------
 
+10/29/2025:
+
+CS3005
+
+Mandelbrot function
+    f(x) = x^2 + c
+    call f(0) = x then f(x) = y then f(y) = x then ..
+    Plot how many calls it takes for numbers to esc from the circle
+    Need to map between the row/col and this x/y coord plane
+
+Floats vs doubles
+
+y equation, flip from x
+    subtracting 
+    maxy - row * deltay
+
+if(row < 0 || row>= grid_height)
+
+1. configure grid; 2. fractal plane size; 3. fractal calculate; 4. grid apply 5. save out
+
+mess with the combos and color schemes and positioning
+
+---
+
+Pure virtual functions
+    Parent / Child class
+
+--------------
