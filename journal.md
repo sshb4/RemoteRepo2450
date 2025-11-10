@@ -562,3 +562,29 @@ Pure virtual functions
     Parent / Child class
 
 --------------
+
+11/10/2025:
+
+CS2450
+
+Idea-Requirement-Design-Implement-Validation-Deployment-Maintenance
+
+Scalability:
+- 3-tier architecture (3 servers)
+    - UI (web server, HTML/CSS/JS)
+    - Application or business layer (abstraction from the data)
+    - Data
+
+    The UI makes a call to a function in the application layer, which does the pulling and affecting of data in one or mulitple dbs.
+- Scale by adding duplicates - horizontal scaling 
+- Scale by getting bigger servers - vertical scaling
+
+Make one DB or connect them (easier and cheaper to just make one consolidated one, or sharding). Usually its a hybrid.
+
+Scale using the cloud, requires non-coupled servers
+
+Docker- containerization tool
+
+
+
+--------------
