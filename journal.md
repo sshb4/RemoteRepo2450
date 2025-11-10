@@ -585,6 +585,22 @@ Scale using the cloud, requires non-coupled servers
 
 Docker- containerization tool
 
+------
 
+CS3005
+
+Practice exam Wednesday, Exam 3 on Monday
+
+Mandelbrot set: named after the guy who got the first good image of it
+
+Assignment is an extention to Julia set assignment
+
+
+Threads, each takes their turn using a lock (mutex)
+- Mutex directs (processes go through the mutex), distributed systems
+
+Ctrl+d == end of file
+
+extern - create function so someone external can call it, like declaring a global variable
 
 --------------
