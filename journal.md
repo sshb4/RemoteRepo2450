@@ -604,3 +604,14 @@ Ctrl+d == end of file
 extern - create function so someone external can call it, like declaring a global variable
 
 --------------
+
+11/12/2025:
+
+CS3005
+
+Pseudocode + debugging
+
+Practice exam is very similar to real exam 3
+
+--------------
+
