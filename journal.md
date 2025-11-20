@@ -615,3 +615,11 @@ Practice exam is very similar to real exam 3
 
 --------------
 
+11/20/2025:
+
+SE3200
+
+- vanilla JS is very important as a foundation before any type of framework
+- don't overcomplicate by adding in the less important details at the beginning
+
+
